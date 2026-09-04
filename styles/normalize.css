@@ -1,0 +1,122 @@
+*{
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+/******************* HEADER **********************/
+header{
+  display: grid;
+  grid-template-columns: 24px auto 44px;
+  padding: 5px 0 5px 10px;
+  border-bottom: 1px solid rgb(149, 144, 168);
+  column-gap: 8px;
+  align-items: end;
+}
+
+header img{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+}
+
+header span{
+  font-size: 1.2rem;
+  color: rgb(24, 2, 12);
+}
+.hamburger{
+  background: none;
+  border: none;
+  color: rgb(99, 75, 102);
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hamburger::before{
+  content: "\2630";
+  font-size 2rem;
+}
+.hamburger.show::after{
+  content: "\00D7";
+  font-size: 2rem;
+}
+/******************* @MEDIA *******************/
+@media only screen and (min-width: 38rem){
+  header, main, nav, footer{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  header{
+    grid-template-columns: 24px auto;
+  }
+.hamburger { 
+  display: none;
+}
+.navigation {
+  display: block;
+  border-bottom: solid 1px rgb(24, 2, 12);
+}
+.navigation ul {
+  display: flex;
+}
+.navigation a {
+  border: none;
+}
+}
+/******************* NAVIGATION **********************/
+.navigation {
+  display: none;
+}
+.navigation.show {
+  display: block;
+}
+.navigation {
+  display: block;
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation a{
+  display: block;
+  padding: 8rem 10px;
+  color: rgb(61, 13, 78);
+  text-decoration: none;
+  border-bottom: solid 1px rgb(149, 144, 168);
+}
+.navigation li.current {
+  background-color: rgb(99, 75, 102);
+}
+.navigation a:hover{
+  background-color: rgb(187, 203, 203);
+}
+h1 {
+  margin-left: 10px;
+  color: rgb(61, 13, 78);
+}
+/*************** Footer *********************/
+footer{
+  background-color: rgb(149, 144, 168);
+  padding: 1rem 10px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+}
+.social a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: rgb(99, 75, 102) 3px;
+  border-radius: 22px;
+}
+.social img{
+  width: 22px;
+  height: 22px;
+}
+.social a:hover{
+  background-color: rgb(187, 203, 203);
+}
