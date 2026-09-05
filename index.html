@@ -6,9 +6,8 @@
     <meta name="description" content="Portfolio of Bruna Beck, software developement WDD2-.">
     <meta name="author" content="Bruna Beck">
     
-    <title>Bruna Beck Developer</title>
-    <button id="head-btn" class="head"></button>
-
+    <title>Bruna Beck | WDD231 Web Front Development</title>
+   
     <link rel="preconnect" hrf="https://fonts.googleapis.com">
     <link rel="preconnect" hrf="https://fonts.gstatic.com" crossorigin>
     <link href="" rel="stylesheet">
@@ -18,15 +17,17 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
 
-      <script src="scripts/script.js" defer></script>
       </head>
     <body>
       <header>
         <div class="logo">
-          <h1 class="title">Bruna Beck</h1>
+          <span class="title">Bruna Beck</span>
           <p>Modern Web Development</p>
         </div>
-        <nav>
+
+           <button id="head-btn" class="head"></button>
+
+        <nav id="navigation">
           <ul class="homePage">
             <li><a href="index.html" aria-current="page">Home</a></li>
              <li><a href="chamber.html">Chamber</a></li>
@@ -35,18 +36,26 @@
         </nav>
       </header>
       <main> 
-        <h2>Home</h2>
+        <h1>Home</h1>
         <section>
-          <h3>About Me</h3>
-          </section>
-          <section>
+          <h2>About Me</h2>
           <p>
             Welcome to my WDD231 home page. My name is Bruna Beck. I am a Software Development student who loves creating websites and learning new technologies.
+        </p>
+        <pre>
+        </pre>
+        <p>
             I enjoy turning ideas into digital experiences that are functional, creative, and enjoyable for people to use. 
             As I continue my journey in web development, I am focused on building my skills in HTML, CSS, JavaScript, and other modern technologies to create accessible and user-friendly websites. 
             My goal is to become a professional software developer after graduating. 
         </p>
         </section>
+        
+        <section class="bruna-photo">
+            <h2>Photo</h2>
+            <img src="images/photo.jpg" alt="Photo of Bruna Beck" width="300" height="300"
+        </section>
+
       </main>
       <footer>
         <div class="media">
@@ -69,6 +78,7 @@
         <p id="currentYear"></p>
         <p id="lastModified"></p>
       </footer>
+      <script src="scripts/script.js" defer></script>
     </body>
 </html>
       

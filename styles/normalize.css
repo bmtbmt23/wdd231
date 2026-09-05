@@ -1,16 +1,58 @@
+:root {
+    --dark-purple: rgb(61, 13, 78);
+   --dark-color: rgb(24, 2, 12);
+   --gray-purple: rgb(149, 144, 168);
+   --light-purple: rgb(225, 223, 232);
+   --purple: rgb(99, 75, 102);
+   --light-blue: rgb(187, 203, 203);
+}
+
 *{
   font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: rgb(24,2,12);
+}
+main{
+    padding: 1rem 10px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+h1,h2 {
+    color: rgb(61, 13, 78);
+    text-align: center;
+}
+main h1{
+    color:  rgb(61, 13, 78);
+}
+
+main section{
+    background-color: rgb(225, 223, 232);
+    border: 1px solid rgb(149, 144, 168);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+/****************PHOTO********************/
+.bruna-photo{
+    text-align: center;
+}
+.bruna-photo img{
+    max-width: 100%;
+    height: auto;
 }
 
 /******************* HEADER **********************/
 header{
   display: grid;
-  grid-template-columns: 24px auto 44px;
+  grid-template-columns: 1fr auto;
   padding: 5px 0 5px 10px;
   border-bottom: 1px solid rgb(149, 144, 168);
   column-gap: 8px;
-  align-items: end;
+  align-items: center;
 }
 
 header img{
@@ -68,4 +110,28 @@ footer p{
 }
 .media a:hover{
   background-color: rgb(187, 203, 203);
+}
+
+/*************MEDIA******************/
+
+@media only screen and (min-width: 38rem){
+  header, main, nav, footer{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+  }
+  .about-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+  .about-text {
+    grid-column: 1;
+  }
+  .bruna-photo img{
+   grid-column: 2;
+   margin-top: 0;
+  }
 }
