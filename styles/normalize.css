@@ -19,6 +19,25 @@ header img{
   height: auto;
   padding-bottom: 5px;
 }
+header span{
+  font-size: 1.2rem;
+  color: rgb(24, 2, 12);
+}
+.head{
+  background: none;
+  border: none;
+  color: rgb(99, 75, 102);
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head::before{
+  content: "\2630";
+  font-size 2rem;
+}
+.head.show::after{
+  content: "\00D7";
+  font-size: 2rem;
+}
 
 /*************** Footer *********************/
 footer{
