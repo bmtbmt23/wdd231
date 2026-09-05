@@ -38,6 +38,22 @@ header span{
   content: "\00D7";
   font-size: 2rem;
 }
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo img{
+  width: 25px;
+  height: 25px;
+  align-items: left;
+}
+.logo P{
+  margin: 0;
+  font-size: 2rem;
+}
+
 /******************* @MEDIA *******************/
 @media only screen and (min-width: 38rem){
   header, main, nav, footer{

@@ -1,0 +1,138 @@
+:root {
+    --dark-purple: rgb(61, 13, 78);
+   --dark-color: rgb(24, 2, 12);
+   --gray-purple: rgb(149, 144, 168);
+   --light-purple: rgb(225, 223, 232);
+   --purple: rgb(99, 75, 102);
+   --light-blue: rgb(187, 203, 203);
+}
+
+*{
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: rgb(24,2,12);
+}
+main{
+    padding: 1rem 10px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+h1,h2 {
+    color: rgb(61, 13, 78);
+    text-align: center;
+}
+main h1{
+    color:  rgb(61, 13, 78);
+}
+
+main section{
+    background-color: rgb(225, 223, 232);
+    border: 1px solid rgb(149, 144, 168);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+/****************PHOTO********************/
+.bruna-photo{
+    text-align: center;
+}
+.bruna-photo img{
+    max-width: 100%;
+    height: auto;
+}
+
+/******************* HEADER **********************/
+header{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 6px 10px;
+  border-bottom: 1px solid rgb(149, 144, 168);
+  background-color: rgb(149, 144, 168);
+  column-gap: 8px;
+  align-items: center;
+}
+
+header img{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+}
+header span{
+  font-size: 1.2rem;
+  color: rgb(24, 2, 12);
+}
+.head{
+  background: none;
+  border: none;
+  color: rgb(99, 75, 102);
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head::before{
+  content: "\2630";
+  font-size 2rem;
+}
+.head.show::after{
+  content: "\00D7";
+  font-size: 2rem;
+}
+
+/*************** Footer *********************/
+footer{
+  background-color: rgb(149, 144, 168);
+  padding: 1rem 10px;
+}
+footer p{
+    text-align: center;
+    margin: 0.5rem 0;
+}
+.media{
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+}
+.media a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: rgb(99, 75, 102) 3px;
+  border-radius: 22px;
+}
+.media img{
+  width: 22px;
+  height: 22px;
+}
+.media a:hover{
+  background-color: rgb(187, 203, 203);
+}
+
+/*************MEDIA******************/
+
+@media only screen and (min-width: 38rem){
+  header, main, nav, footer{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+  }
+  .about-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+  .about-text {
+    grid-column: 1;
+  }
+  .bruna-photo img{
+   grid-column: 2;
+   margin-top: 0;
+  }
+}
