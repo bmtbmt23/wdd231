@@ -73,6 +73,9 @@ h1,h2 {
   color: rgb(61, 13, 78);
   margin-top: 0;
 }
+.lessons p{
+  color: rgb(24, 2, 12);
+}
 .courses {
   display: flex;
   justify-content: center;
@@ -162,7 +165,7 @@ header {
   flex-direction: column;
   list-style: none;
   padding: 10px 15px;
-  margin: 20px 2 2;
+  margin: 20px 2px 2px;
   border-radius: 8px;
   background-color: rgb(225, 223, 232);
   border: 2px solid rgb(99, 75, 102);
@@ -207,8 +210,7 @@ footer p{
   height: 22px;
 }
 .media a:hover{
-  background-color: ;
-}
+  background-color: rgb(187, 203, 203);
 /**************MEDIA*****************/
 
 @media screen and (max-width: 768px){
