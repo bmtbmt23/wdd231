@@ -92,7 +92,7 @@ header {
   align-items: center;
 
 }
-.logo img{
+.logo img {
   width: 25px;
   height: 25px; 
   grid-row: 1/3;
@@ -105,7 +105,9 @@ header {
 .logo p {
   margin: 0;
 }
+
 /*************HAMBURGER*********/
+
 .hamburger {
   width: 40px;
   height: 40px;
@@ -116,17 +118,19 @@ header {
   border-radius: 5px;
 }
 
-.hamburger::before{
+.hamburger::before {
   content: "\2630";
   font-size: 1.5rem;
   color: rgb(61, 13, 78);
 }
-.hamburger.show:before{
+.hamburger.show::before {
   content: "\00D7";
   font-size: 1.8rem;
   color: rgb(61, 13, 78);
 }
+
 /************NAVIGATION**************/
+
 #navigation{
   display: none;
   grid-column: 1 / 3;
@@ -157,7 +161,9 @@ header {
 .homePage a:hover {
   background-color: rgb(187, 203, 203);
 }
+
 /*************** Footer *********************/
+
 footer{
   background-color: rgb(149, 144, 168);
   padding: 1rem 10px;
