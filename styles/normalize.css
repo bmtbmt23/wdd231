@@ -82,10 +82,12 @@ h1,h2 {
 .courses button{
   border-radius: 6px;
   padding: 10px 20px;
+  background-color: rgb(225, 223, 232);
+  border: 2px solid rgb(61, 13, 78);
 }
 
 .courses button:hover{
-  background-color: rgb(99, 75, 102);
+  background-color: rgb(187, 203, 203);
 }
 
 /******************* HEADER **********************/
@@ -205,7 +207,7 @@ footer p{
   height: 22px;
 }
 .media a:hover{
-  background-color: rgb(187, 203, 203);
+  background-color: ;
 }
 /**************MEDIA*****************/
 
