@@ -10,7 +10,7 @@ hamButton.addEventListener("click", () =>{
     hamButton.classList.toggle("show");
 })
 
-const course = [
+const courses = [
     {
         subject: "CSE",
         number: 110,
@@ -58,7 +58,7 @@ const course = [
 
 const list = document.querySelector("#course-list");
 
-function ShowCourses (courseList) {
+function showCourses(courseList) {
     list.innerHTML = "",
     
         courseList.forEach(function(course){
@@ -74,7 +74,7 @@ function ShowCourses (courseList) {
     }
 
     document.querySelector("#all-courses").addEventListener("click", function(){
-        ShowCourses(courses.filter(function(course) {
+        showCourses(courses.filter(function(course) {
             return course.subject === "WDD";
         }));
     } );
