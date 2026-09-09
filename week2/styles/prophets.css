@@ -65,6 +65,12 @@ section h2{
     color: rgb(28, 28, 28);
     text-shadow: 2px 2px 4px rgb(157, 205, 192);
 }
+section > p{
+    min-height: auto;
+    text-align: center;
+    margin: 5px 0;
+    color:rgb(28, 28, 28);
+}
 
 .caption {
 	position: absolute;
@@ -81,3 +87,4 @@ section h2{
 .un {
 	list-style: none;
 }
+
