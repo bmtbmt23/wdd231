@@ -135,6 +135,7 @@ header {
   background-color: rgb(225, 223, 232);
   border: 2px solid rgb(61, 13, 78);
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .hamburger::before {
@@ -236,6 +237,9 @@ footer p{
   }
   .courses button{
     width: 100%;
+  }
+  #course.list {
+    grid-template-columns: 1fr;
   }
 }
 
