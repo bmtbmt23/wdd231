@@ -213,33 +213,5 @@ footer p{
 .media a:hover{
   background-color: rgb(187, 203, 203);
 }
-/**************MEDIA*****************/
 
-@media screen and (max-width: 768px){
-  main{
-    display: block;
-    padding: 1rem 10px;
-  }
-  main section{
-    margin-bottom: 20px;
-    min-height: auto;
-  }
-  .bruna-photo img{
-    width: 250px;
-  }
-
-  .lessons{
-    grid-column: 1;
-  }
-  .courses{
-    flex-direction: column;
-    gap: 10px;
-  }
-  .courses button{
-    width: 100%;
-  }
-  #course.list {
-    grid-template-columns: 1fr;
-  }
-}
 
