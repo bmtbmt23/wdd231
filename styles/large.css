@@ -16,6 +16,7 @@
 }
 
 /*****************HAMBURGER*****************/
+
 .hamburger{
   display: none;
 }
@@ -51,6 +52,7 @@
 }
 
 /************PHOTO**************/
+
 .about-photo{
   display: grid;
   grid-template-columns: 2fr 1fr;
