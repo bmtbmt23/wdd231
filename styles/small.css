@@ -10,6 +10,7 @@ h1{
     color: rgb(61, 13, 78);
     border: 2px solid rgb(225, 223, 232); 
     padding: 10px;
+    text-align: center;
 }
 h2 {
   color: rgb(61, 13, 78);
@@ -238,7 +239,7 @@ footer p{
 
 /*************MEDIA***********/
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 767px){
     main {
         display: block;
         padding: 1rem 10px;

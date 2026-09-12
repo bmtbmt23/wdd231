@@ -24,17 +24,6 @@
   height: 40px;
 }
 
-.homePage a:hover{
-  background-color: rgb(187, 203, 203);
-  border-radius: 6px;
-}
-
-.homePage a{
-  display: block;
-  padding: 10px 15px;
-  color: rgb(61, 13, 78);
-}
-
 /************PHOTO**************/
 
 .about-photo{
