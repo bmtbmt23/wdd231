@@ -31,9 +31,7 @@
   grid-template-columns: 2fr 1fr;
   gap: 25px;
 }
-.bruna-photo img {
-  width: 300px;
-}
+
 /*****************MEDIA**************/
 @media screen and (min-width: 768px){
 
@@ -42,6 +40,17 @@
   }
   #navigation{
     display: block;
+  }
+  .about photo{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .courses{
+    flex-direction: row;
+    gap: auto;
+  }
+  .courses button{
+    width: auto;
   }
 }
 
