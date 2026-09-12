@@ -59,19 +59,31 @@ const courses = [
 const list = document.querySelector("#course-list");
 
 function showCourses(courseList) {
-    list.innerHTML = "",
+    list.innerHTML = "";
+
+    const totalCredits = courseList.reduce(
+        (total,course) => total + course.credits, 0
+    );
     
         courseList.forEach(function(course){
+
+            const completedText = course.completed
+            ? "Completed"
+            : " ";
+
             list.innerHTML += 
            ` <div class="course-card">
            <p>${course.subject} ${course.number}</p>
            <p>${course.title}</p>
            <p>${course.credits}</p>
+           <p>${completedText}<p>
            </div>
            `
            ; 
         });
-    }
+
+        document.querySelector('#total-credits').textContent = totalCredits;
+     }
 
     document.querySelector("#all-courses").addEventListener("click", function(){
         showCourses(courses.filter(function(course) {
@@ -79,8 +91,14 @@ function showCourses(courseList) {
         }));
     } );
     document.querySelector("#cse-courses").addEventListener("click", function() {
-        showCourses(courses.filter(function(course) {
-            return course.subject === "CSE";
-  }));
+        showCourses(courses);
+  });
+
+  document.querySelector('#wdd-courses').addEventListener("click", function() {
+
+    showCourses(courses.filter(function(course){
+        return course.subject === "WDD";
+    }));
+
 });
 showCourses(courses);
