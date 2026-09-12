@@ -1,3 +1,34 @@
+:root {
+  --dark-purple: rgb(61, 13, 78);
+  --dark-color: rgb(24, 2, 12);
+  --gray-purple: rgb(149, 144, 168);
+  --light-purple: rgb(225, 223, 232);
+  --purple: rgb(99, 75, 102);
+  --light-blue: rgb(187, 203, 203);
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: rgb(24, 2, 12);
+}
+
+h1,
+h2 {
+  color: rgb(61, 13, 78);
+  text-align: center;
+}
+main{
+    padding: 1rem 10px;
+    margin: 0 auto;
+    max-width: 900px;
+    display: grid;
+    gap: 20px;
+}
 
 
 
