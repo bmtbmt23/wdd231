@@ -60,24 +60,6 @@ h2 {
   margin-top: 0;
 }
 
-/****************PHOTO********************/
-
-.bruna-photo{
-    text-align: center;
-    background-color: rgb(225, 223, 232);
-    border: 2px solid rgb(187, 203, 203);
-    border-radius: 8px;
-    padding: 20px;
-    display: flex;
-}
-
-.bruna-photo img{
-    height: auto;
-    width: 300px;
-    aspect-ratio: 1/1;
-    border-radius: 8px;
-    border: 4px solid rgb(99, 75, 102);
-}
 
 /**************PROJECTS******************/
 .lessons{
