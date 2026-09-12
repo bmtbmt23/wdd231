@@ -1,25 +1,15 @@
-:root {
-    --dark-purple: rgb(61, 13, 78);
-   --dark-color: rgb(24, 2, 12);
-   --gray-purple: rgb(149, 144, 168);
-   --light-purple: rgb(225, 223, 232);
-   --purple: rgb(99, 75, 102);
-   --light-blue: rgb(187, 203, 203);
-}
-*{
-  font-family: "Josefin Sans", sans-serif;
-  box-sizing: border-box;
-}
 
 .completed-label{
   font-weight: bold;
 }
-
+.hamburger{
+  display: none;
+}
 /******************NAVIGATION**************/
 
 #navigation {
   display: block;
-  grid-column: 4;
+  grid-column: 2;
   width: auto;
 }
 .homepage{
@@ -52,7 +42,9 @@
   grid-template-columns: 2fr 1fr;
   gap: 25px;
 }
-
+.bruna-photo img {
+  width: 300px;
+}
 /*****************MEDIA**************/
 @media screen and (min-width: 768px){
 
@@ -62,4 +54,14 @@
   #navigation{
     display: block;
   }
+}
+
+/**************COURSES**************/
+
+.courses{
+  flex-direction: row;
+  gap: 10px;
+}
+.courses button{
+  width: auto;
 }

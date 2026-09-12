@@ -17,18 +17,5 @@ body {
   color: rgb(24, 2, 12);
 }
 
-h1,
-h2 {
-  color: rgb(61, 13, 78);
-  text-align: center;
-}
-main{
-    padding: 1rem 10px;
-    margin: 0 auto;
-    max-width: 900px;
-    display: grid;
-    gap: 20px;
-}
-
 
 

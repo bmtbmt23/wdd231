@@ -1,5 +1,23 @@
+main{
+    padding: 1rem 10px;
+    margin: 0 auto;
+    max-width: 900px;
+    display: grid;
+    gap: 20px;
+}
+h1{
+    border-radius: 50%;
+    color: rgb(61, 13, 78);
+    border: 2px solid rgb(225, 223, 232); 
+    padding: 10px;
+}
+h2 {
+  color: rgb(61, 13, 78);
+  text-align: center;
+}
 
-/****************PHOTO********************/
+/******PHOTO*******/
+
 .bruna-photo{
     text-align: center;
     background-color: rgb(225, 223, 232);
@@ -7,6 +25,9 @@
     border-radius: 8px;
     padding: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .bruna-photo img{
     height: auto;
@@ -14,13 +35,16 @@
     aspect-ratio: 1/1;
     border-radius: 8px;
     border: 4px solid rgb(99, 75, 102);
+    margin: auto;
 }
 .bruna-photo h2{
     color: rgb(61, 13, 78);
     text-align: center;
-    margin-top: 0;
+    margin: 0 0 15px 0;
 }
+
 /**************ABOUT ME*******************/
+
 .about{
   grid-column: 1;
   background-color: rgb(225, 223, 232);
@@ -33,6 +57,25 @@
   color: rgb(61, 13, 78);
   text-align: center;
   margin-top: 0;
+}
+
+/****************PHOTO********************/
+
+.bruna-photo{
+    text-align: center;
+    background-color: rgb(225, 223, 232);
+    border: 2px solid rgb(187, 203, 203);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+}
+
+.bruna-photo img{
+    height: auto;
+    width: 300px;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    border: 4px solid rgb(99, 75, 102);
 }
 
 /**************PROJECTS******************/
@@ -53,7 +96,9 @@
 .courses {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   margin-top: 20px;
+  gap: 10px;
 }
 
 .courses button{
@@ -68,6 +113,7 @@
 }
 
 /******************* HEADER **********************/
+
 header {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -189,14 +235,31 @@ footer p{
 .media a:hover{
   background-color: rgb(187, 203, 203);
 }
+
+/*************MEDIA***********/
+
 @media screen and (min-width: 768px){
-    .about-photo{
+    main {
+        display: block;
+        padding: 1rem 10px;
+    }
+
+    main section{
+        margin-bottom: 20px;
+        min-height: auto;
+    }
+
+    .bruna-photo img{
+        width: 300px;
+        height: auto;
+    }
+
+    .courses{
         flex-direction: column;
+        gap: 10px;
     }
-    .about{
-        order: 1;
-    }
-    .bruna-photo{
-        order: 2;
+
+    .courses button{
+        width: 100%;
     }
 }
