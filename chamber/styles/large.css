@@ -1,0 +1,38 @@
+@media screen and (min-width: 700px) {
+
+  .hamburger {
+    display: none;
+  }
+
+  #navigation {
+    display: block;
+    width: 100%;
+  }
+
+  .homePage {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homePage a {
+    padding: 10px 20px;
+  }
+  
+  .m-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .m-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  main {
+    max-width: 1200px;
+  }
+}
