@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of restaurants and local gastronomy businesses showing directory in Olinda City of Recife Pernambuco.">
+    <meta name="description" content="Chamber of local gastronomy businesses showing directory in Olinda City of Recife Pernambuco.">
     <meta name="author" content="Bruna Beck">
     
     <title>Olinda chamber of commerce</title>
@@ -11,12 +11,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
+
+    <meta property="og:title" content="Chamber Directory of Commerce Member">
+    <meta property="og:description" content="Explore local gastronomy businesses and Chamber members in Olinda, Pernambuco, Brazil.">
+    <meta property="og:image" content="https://bmtbmt23.github.io/wdd231/chamber/images/your-image.jpg">
+    <meta property="og:url" content="https://github.com/bmtbmt23/wdd231/tree/main/chamber">
     
 
     <link rel="icon" href="favicon.ico">
-    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 
       </head>
     <body>
@@ -24,7 +30,6 @@
         <div class="logo">
           <span class="title">Bruna Beck</span>
            <img src="images/heart-shine-svgrepo-com.svg" alt="Site logo" width="10" height="10">
-           <p>Modern Web Development</p>
           <h1>Olinda Chamber of Commerce</h1>
         </div>
 
@@ -33,19 +38,20 @@
         <nav id="navigation">
           <ul class="homePage">
             <li><a href="index.html">Home</a></li>
-             <a href="chamber.html" aria-current="page">Chamber</a>
-            <li><a href="final.html">Final</a></li>
+             <li><a href="directory.html" aria-current="page">Business Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
           </ul>
         </nav>
       </header>
       <main>
         <section class="olinda-pe">
           <h2>Olinda Directory</h2>
-          <p>This webpage helps you discover local restaurants and gastronomy in Olinda, Pernambuco, Brazil.</p>
+          <p>This webpage helps Chamber of local gastronomy businesses in Olinda, Pernambuco, Brazil.</p>
         </section>
-        <section class="directory" aria-laballedby="d-gastronomy">
+        <section class="directory" aria-labelledby="d-gastronomy">
           <div class="d-head">
-            <h2 id="d-gastronomy">Local Gastronomy</h2> 
+            <h2 id="d-gastronomy">Local Gastronomy Business</h2> 
           </div>
           <div class="view" aria-label="Choose directory view">
             <button id="grid" class="grid-button" type="button">Grid</button>
@@ -55,6 +61,14 @@
         </section>
       </main>
          <footer>
+          <div class="footerChamber">
+          <section class="chamb">
+            <p class="one-title">Gastronomy Chamber of Commerce</p>
+            <p>Olinda 1010</p>
+            <p>Olinda@lindacidade.org</p>
+            <p>(000) 000-000</p>
+          </section>
+        </div>
         <div class="media">
         <a href="https://github.com/bmtbmt23" target="_blank">
           <img src="images/github-142-svgrepo-com.svg" alt="GitHub" width="16" height="16">

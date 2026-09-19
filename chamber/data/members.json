@@ -1,11 +1,11 @@
-[
+{ "members": [
   {
     "id": 1,
     "name": "Oficina do Sabor",
     "address": "Rua do Amparo, 335, Amparo, Olinda-PE",
     "phone": "(+55) 81 3429-3331",
     "website": "https://www.oficinadosabor.com/",
-    "image": "restaurant-1.jpeg",
+    "image": "images/restaurant-1.jpeg",
     "description": "Regional flavors of Pernambuco cuisine with traditional ingredients.",
     "membership": 3
   },
@@ -15,7 +15,7 @@
     "address": "R. Bernardo Vieira de Melo - Carmo, Olinda - PE, 53020-080, Brazil",
     "phone": "(+55) 81 3055-0833",
     "website": "https://www.restaurantepatua.com.br/",
-    "image": "restaurant-2.jpeg",
+    "image": "images/restaurant-2.jpeg",
     "description": "Brazilian and seafood restaurant offering regional flavors in the historic area of Olinda.",
     "membership": 2
   },
@@ -25,7 +25,7 @@
     "address": "R. do Amparo - Carmo, Olinda - PE, 53025-080, Brazil",
     "phone": "(+55) 81 3439-6691",
     "website": "https://www.beijupira.com.br/",
-    "image": "restaurant-3.jpeg",
+    "image": "images/restaurant-3.jpeg",
     "description": "Focused on seafood, offering Brazilian cuisine with tropical ingredients.",
     "membership": 3
   },
@@ -35,7 +35,7 @@
     "address": "R. Bpo. Coutinho, 35 - Carmo, Olinda - PE, 53120-130, Brazil",
     "phone": "(+55) 81 99673-5847",
     "website": "https://www.instagram.com/olindaartgrill/",
-    "image": "restaurant-4.jpeg",
+    "image": "images/restaurant-4.jpeg",
     "description": "Located in the historic center of Olinda, known for regional dishes and an amazing view.",
     "membership": 1
   },
@@ -45,7 +45,7 @@
     "address": "Av. Min. Marcos Freire, 407 - Bairro Novo, Olinda - PE, 53030-000, Brazil",
     "phone": "(+55) 81 3429-8813",
     "website": "https://bodedono.com.br/nossas-unidades/olinda/",
-    "image": "restaurant-5.jpeg",
+    "image": "images/restaurant-5.jpeg",
     "description": "Brazilian restaurant offering regional barbecue, grilled meats, and traditional flavors.",
     "membership": 3
   },
@@ -55,7 +55,7 @@
     "address": "R. Ary Barroso, 111 - Monte, Olinda - PE, 53240-210, Brazil",
     "phone": "(+55) 81 53240",
     "website": "https://www.instagram.com/_praquemgosta/",
-    "image": "restaurant-6.jpeg",
+    "image": "images/restaurant-6.jpeg",
     "description": "Restaurant featuring traditional Northeastern dishes and Pernambuco flavors.",
     "membership": 1
   },
@@ -65,8 +65,9 @@
     "address": "R. Cel. Alberto Lundgren, 582 - Bairro Novo, Olinda - PE, 53030-200, Brazil",
     "phone": "(+55) 81 3439-1080",
     "website": "https://casadetonho.blogspot.com/",
-    "image": "restaurant-7.jpeg",
+    "image": "images/restaurant-7.jpeg",
     "description": "Local restaurant featuring the traditional flavors of Pernambuco.",
     "membership": 2
   }
 ]
+}
