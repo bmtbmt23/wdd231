@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
 
   .m-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -34,5 +34,18 @@
 
   main {
     max-width: 1200px;
+  }
+
+  .courses {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+  .navigation ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navigation a {
+    border-bottom: none;
   }
 }

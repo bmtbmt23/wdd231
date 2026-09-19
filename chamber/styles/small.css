@@ -37,7 +37,38 @@ h2 {
   color: rgb(61, 13, 78);
   text-align: center;
 }
+/******LOGO/HEADER******/
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 6px 10px;
+  border-bottom: 2px solid rgb(61, 13, 78);
+  background-color: rgb(149, 144, 168);
+  column-gap: 8px;
+  align-items: center;
+  position: relative;
+}
 
+logo {
+  display: grid;
+  grid-template-columns: 30px auto;
+  column-gap: 6px;
+  align-items: center;
+
+}
+.logo img {
+  width: 25px;
+  height: 25px; 
+  grid-row: 1/3;
+}
+.logo .title{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(61, 13, 78);
+}
+.logo p {
+  margin: 0;
+}
 /*************HAMBURGER*********/
 
 .hamburger {
@@ -176,4 +207,47 @@ footer p {
 
 .m-list .restaurant-img {
   display: none !important;
+}
+.view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px auto;
+}
+.view button{
+  width: 120px;
+  height: auto;
+  padding: 10px 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(61, 13, 78);
+  background-color: rgb(225, 223, 232);
+  border: 2px solid rgb(61, 13, 78);
+  
+}
+
+.view button:hover{
+  background-color: rgb(187, 203, 203);
+}
+
+view button.current{
+  background-color: rgb(61, 13, 78);
+  color: rgb(225, 223, 232);
+}
+.courses {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.courses button {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #3d0d4e;
+    background-color: #e1dfe8;
+    color: #3d0d4e;
+    cursor: pointer;
 }
