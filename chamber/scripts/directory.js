@@ -36,7 +36,8 @@ hamButton.addEventListener("click", () =>{
   website.target = "_blank";
   website.rel = "noopener";
 
-  image.src = `images/${member.image}`;
+  image.src = member.image;
+
   image.alt = `Photo of ${member.name}`;
   image.loading = "lazy";
 
@@ -69,10 +70,10 @@ async function getMembers(){
       throw new Error(`Chamber data failed ${response.status}`);
     }
     const data = await response.json();
-    console.log("Members loaded:", data);
-    console.log("Number of members:", data.length);
+    console.log("Members loaded:", data.members);
+    console.log("Number of members:", data.members.length);
 
-    displayMembers(data);
+    displayMembers(data.members);
   }
   catch (error){
     console.error("Chamber directory error:", error);
