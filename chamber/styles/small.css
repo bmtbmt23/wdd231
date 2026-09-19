@@ -199,7 +199,7 @@ footer p {
 }
 
 .m-list .restaurant-card {
-  background: rgb(225, 223, 232));
+  background: rgb(225, 223, 232);
   box-shadow: 0 2px 5px rgba(24, 2, 12, 0.2);
   border: 2px solid rgb(149, 144, 168);
   padding: 10px 15px;
@@ -253,4 +253,8 @@ view button.current{
 }
 .olinda-pe p {
   text-align: center;
+}
+.chamb h2 {
+  font-size: 1rem;
+  margin: 0 0 10px;
 }
