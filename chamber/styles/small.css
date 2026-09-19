@@ -184,9 +184,9 @@ footer p {
 }
 
 .m-grid .restaurant-card {
-  background: rgb(149, 144, 168);
+  background: rgb(225, 223, 232);
   box-shadow: 0 2px 5px rgba(24, 2, 12, 0.2);
-  border: 2px solid rgb(225, 223, 232);
+  border: 2px solid rgb(149, 144, 168);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -199,9 +199,9 @@ footer p {
 }
 
 .m-list .restaurant-card {
-  background: rgb(149, 144, 168);
+  background: rgb(225, 223, 232));
   box-shadow: 0 2px 5px rgba(24, 2, 12, 0.2);
-  border: 2px solid rgb(225, 223, 232);
+  border: 2px solid rgb(149, 144, 168);
   padding: 10px 15px;
 }
 
