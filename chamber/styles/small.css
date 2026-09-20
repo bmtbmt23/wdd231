@@ -284,6 +284,9 @@ view button.current{
 }
 .event-card p strong{
   color: rgb(99, 75, 102);
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
 }
 
 /********IMAGE/OLINDA**********/
@@ -293,14 +296,19 @@ view button.current{
   box-shadow: 0 4px 10px rgb(99, 75, 102);
   padding: 10px;
   border-radius: 10px; 
-  
+  position: relative;
 }
-/**********HERO****************/
+.hero img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
 .hero-topics {
   position: absolute;
-  top: 45%;
-  left: 30%;
+  top: 25%;
+  left: 5%;
   transform: translateY(-50%);
   text-align: center;
   background-color: rgba(24, 2, 12, 0.75);
@@ -314,6 +322,11 @@ view button.current{
   font-size: 1rem;
   color: rgb(187, 203, 203);
 }
+
+.hero-topics p{
+  margin: 5px 0;
+}
+
 
 .weather{
   text-align: center;
