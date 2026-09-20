@@ -357,3 +357,19 @@ view button.current{
   text-align: center;
   color: rgb(61, 13, 78);
 }
+/*******SPOTLIGHT*************/
+
+#spotlight-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.spotlight-card {
+  background-color: rgb(225, 223, 232);
+  box-shadow: 0 4px 10px rgb(99, 75, 102);
+  border: 2px solid rgb(149, 144, 168);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+
