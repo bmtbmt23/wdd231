@@ -48,7 +48,6 @@
   .navigation a {
     border-bottom: none;
   }
-}
 
 .spotlights{
   max-width: 1000px;
@@ -72,4 +71,5 @@
   height: 80;
   display: block;
   margin: 0 auto 15px;
+}
 }
