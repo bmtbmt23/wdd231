@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of local gastronomy businesses showing directory in Olinda City of Recife Pernambuco.">
+    <meta name="author" content="Bruna Beck">
+    
+    <title>Olinda Chamber of Commerce</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <meta property="og:title" content="Chamber Directory of Commerce Member">
+    <meta property="og:description" content="Explore local gastronomy businesses and Chamber members in Olinda, Pernambuco, Brazil.">
+    <meta property="og:image" content="https://bmtbmt23.github.io/wdd231/chamber/images/restaurant-1.jpeg">
+    <meta property="og:url" content="https://github.com/bmtbmt23/wdd231/tree/main/chamber">
+    
+
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/home.js" defer></script>
+
+      </head>
+    <body>
+      <header>
+        <div class="logo">
+          <span class="title">Bruna Beck</span>
+           <img src="images/heart-shine-svgrepo-com.svg" alt="Site logo" width="10" height="10">
+        </div>
+
+        <button id="ham-btn" class="hamburger" aria-label="Navigation menu"></button>
+
+        <nav id="navigation">
+          <ul class="homePage">
+            <li><a href="index.html" aria-current="page">Home</a></li>
+             <li><a href="directory.html">Business Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+         <h1>Welcome to Olinda's Culinary Community Directory</h1>
+         <section class="hero" aria-labelledby="hero-title">
+            <img src="images/olinda.webp" alt="Olinda city beautiful streets" width="1200" height="600">
+            <div class="hero-topics">
+                <h2 id="hero-title">Appreciate the Flavor of Olinda</h2>
+                <p>We connecting local restaurants, food businesses, and our community.</p>
+                <a href="join.html" class="cta-button">Join</a>
+            </div>
+         </section>
+         <section class="updates" aria-labelledby="updates-titles">
+            <h2 id="updates-title">News & Updates</h2>
+            <div class="event-topics"></div>
+            <article class="event-card">
+                <h3>Taste of Olinda MIMO Festival</h3>
+                <p>Discover Pernambuco’s culinary traditions and connect with Olinda’s local gastronomy businesses.</p>
+                <p><strong>September 25–27, 2026</strong></p>
+        </article>
+        <article class="event-card">
+            <h3>Local Business Networking</h3>
+            <p>Your gateway to local food creators and community culinary connections.</p>
+            <p><strong>September 25–27, 2026</strong></p>
+        </article>
+         </section>
+         <section class="weather" aria-labelledby="weather-title">
+            <h2 id="weather-title">Olinda weather</h2>
+            <div class="weather-condition">
+                <h3>Weather Now</h3>
+            <p id="weather-condition"></p>
+            <p id="condition"></p>
+            </div>
+            </section>
+            <section class="spotlights" aria-labelledby="spotlight-title">
+                <h2 id="spotlight-title">Local Business Spotlights</h2>
+                <div id="spotlight-container"><p></p></div>
+            </section>
+      </main>
+      <footer>
+          <div class="footerChamber">
+          <section class="chamb">
+            <p class="one-title">Gastronomy Chamber of Commerce Directory</p>
+            <p>Olinda 1010</p>
+            <p>Olinda@lindacidade.org</p>
+            <p>(000) 000-000</p>
+          </section>
+        </div>
+        <div class="media">
+        <a href="https://github.com/bmtbmt23" target="_blank">
+          <img src="images/github-142-svgrepo-com.svg" alt="GitHub" width="16" height="16">
+        </a>
+          <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+          <img src="images/linkedin-svgrepo-com.svg" alt=" LinkedIn" width="16" height="16">
+        </a>
+          <a href="https://codepen.io/your-work" target="_blank">
+          <img src="images/codepen-01-svgrepo-com.svg" alt="CodePen" width="16" height="16">
+        </a>
+          <a href="https://www.instagram.com/" target="_blank">
+          <img src="images/instagram-svgrepo-com.svg" alt="Instagram" width="16" height="16">
+        </a>
+          <a href="https://www.facebook.com/" target="_blank">
+          <img src="images/facebook-svgrepo-com.svg" alt="Facebook" width="16" height="16">
+        </a>
+        </div>
+        <p id="currentYear"></p>
+        <p id="lastModified"></p>
+      </footer>
+      </body>
+      </html>

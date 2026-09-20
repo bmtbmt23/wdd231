@@ -257,3 +257,64 @@ view button.current{
   font-size: 1rem;
   margin: 0 0 10px;
 }
+/*******CTA********/
+
+.cta-button{
+  padding: 10px 20px;
+  color: rgb(61, 13, 78);
+  background-color: rgb(225, 223, 232);
+  border: 2px solid rgb(61, 13, 78);
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+.cta-button:hover { 
+  background-color: rgb(187, 203, 203); 
+}
+
+/*******EVENTS/UPDATES*********/
+
+.updates {
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+  color:rgb(61, 13, 78);
+}
+.event-card p strong{
+  color: rgb(99, 75, 102);
+}
+
+/********IMAGE/OLINDA**********/
+
+.hero {
+  background-color: rgb(225, 223, 232);
+  box-shadow: 0 4px 10px rgb(99, 75, 102);
+  padding: 10px;
+  border-radius: 10px; 
+  
+}
+/**********HERO****************/
+
+.hero-topics {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  transform: translateY(-50%);
+  text-align: center;
+  background-color: rgba(24, 2, 12, 0.75);
+  color: rgb(225, 223, 232);
+  border-radius: 0 0 8px 8px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.hero-topics h2{
+  font-size: 1rem;
+  color: rgb(187, 203, 203);
+}
+
+.weather{
+  text-align: center;
+}
