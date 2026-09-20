@@ -269,6 +269,7 @@ view button.current{
   cursor: pointer;
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
 }
 .cta-button:hover { 
   background-color: rgb(187, 203, 203); 
@@ -307,14 +308,14 @@ view button.current{
 
 .hero-topics {
   position: absolute;
-  top: 25%;
-  left: 5%;
+  top: 20%;
+  left: 25%;
   transform: translateY(-50%);
   text-align: center;
   background-color: rgba(24, 2, 12, 0.75);
   color: rgb(225, 223, 232);
   border-radius: 0 0 8px 8px;
-  width: 80%;
+  width: 45%;
   max-width: 600px;
 }
 
