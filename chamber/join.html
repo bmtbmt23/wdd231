@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Chamber of local gastronomy businesses showing directory join of commerce membership page.">
+<meta name="author" content="Bruna Beck">
+<title>Join | Olinda Chamber of Commerce Directory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/large.css">
+<link rel="stylesheet" href="styles/join.css">
+<link rel="stylesheet" href="style.css">
+
+<meta property="og:title" content="Chamber Directory of Commerce Member">
+<meta property="og:description" content="Explore local gastronomy businesses and Chamber members in Olinda, Pernambuco, Brazil.">
+<meta property="og:image" content="https://bmtbmt23.github.io/wdd231/chamber/images/restaurant-1.jpeg">
+<meta property="og:url" content="https://github.com/bmtbmt23/wdd231/tree/main/chamber">
+
+<link rel="icon" href="favicon.ico">
+<script src="scripts/join.js" defer></script>
+<script src="script.js" defer></script>
+
+</head>
+<body>
+<header>
+<div class="logo">
+<span class="title">Bruna Beck</span>
+<img src="images/heart-shine-svgrepo-com.svg" alt="Site logo" width="10" height="10">
+</div>
+
+<button id="ham-btn" class="hamburger" aria-label="Navigation menu"></button>
+
+<nav id="navigation">
+<ul class="homePage">
+<li><a href="index.html">Home</a></li>
+<li><a href="directory.html">Business Directory</a></li>
+<li><a href="join.html" aria-current="page">Join</a></li>
+<li><a href="discover.html">Discover</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h1 id="Name">Join the Olinda Chamber of Commerce</h1>
+<p id="course">Become a member of the Olinda Chamber of Commerce.</p>
+<h2 class="info">Membership Application</h2>
+<br>
+<form method="GET" action="thankyou.html" class="designOne">
+<label>First Name:<input id="fname" type="text" name="fname" title="first name" autocomplete="given-name"placeholder="First Name" required></label>
+<br>
+<label>Last Name:<input id="lname" type="text" name="lname" title="last name" autocomplete="family-name"placeholder="Last Name" required></label>
+<br>
+<label>Phone Number: <input type="tel" id="phone" name="phone" title="phone number" autocomplete="tel" placeholder="(000) 000-000"required></label>
+<br>
+<label>Email: <input id="email" type="email" name="email" title="email" autocomplete="email" placeholder="example@email.com"required></label>
+<br>
+<label for="organizationTitle"> Organization Title: <input id="organizationTitle" type="text" name="organizationTitle" title="organization title" autocomplete="organization-title" pattern="[A-Za-z -]{7,}" minlength="7"></label>
+<br>
+<label for="organization">Organization Name: <input id="organization" type="text" name="organization" title="organization name" autocomplete="organization" required></label>
+<br>
+<label for="organizationDescription">Organization Description: <textarea id="organizationDescription"  name="organizationDescription" title="organization description" placeholder="Description..."></textarea></label>
+  
+<h2 class="info2">Membership Level</h2>
+  <div class="membership">
+<label class="membership-card"><input id="goldView" type="radio" name="membership" value="gold" required> Gold Membership
+  <a href="#goldView">View</a>
+</label>
+<br>
+<label class="membership-card"><input id="silverView" type="radio" name="membership" value="silver" required>Silver Membership
+ <a href="#silverView">View</a>
+</label>
+<br>
+<label class="membership-card"><input id="bronzeView" type="radio" name="membership" value="bronze" required>Bronze Membership
+   <a href="#bronzeView">View</a>
+</label>
+<br>
+<label class="membership-card"><input id="npView" type="radio" name="membership" value="np" required>NP Membership
+  <a href="#npView">View</a>
+</label>
+</div>
+<br>
+<input type="hidden" id="timestamp" name="timestamp">
+<input type="submit" value="Submit Membership Application">
+</form>
+<dialog id="goldView">
+  <h2>Gold Membership Benefits</h2>
+  <ul>
+    <li>All Silver Benefits</li>
+    <li>Premium Opportunities</li>
+    <li>VIP chamber events</li>
+    <li>Premium Networking</li>
+    <li>1 free dining in per week</li>
+  </ul>
+  <button type="button" class="modal">Close</button>
+</dialog>
+<dialog id="silverView">
+  <h2>Silver Membership Benefits</h2>
+  <ul>
+    <li>All Bronze Benefits</li>
+    <li>Event Discounts</li>
+    <li>Training Oportunities</li>
+    <li>50% off on 1 dining per week</li>
+  </ul>
+  <button type="button" class="modal">Close</button>
+</dialog>
+  
+  <dialog id="bronzeView">
+  <h2>Bronze Membership Benefits</h2>
+  <ul>
+    <li>All Bronze Benefits</li>
+    <li>Event Discounts</li>
+    <li>Training Opportunities</li>
+    <li>20% off on 1 dining in per week</li>
+  </ul>
+  <button type="button" class="modal">Close</button>
+</dialog>
+  
+<dialog id="npView">
+  <h2>NP Membership Benefits</h2>
+  <ul>
+    <li>No Membership Fee</li>
+    <li>Chamber networking opportunities</li>
+    <li>Directory Listing</li>
+  </ul>
+  <button type="button" class="modal">Close</button>
+</dialog>
+  
+</main>
+<footer>
+<div class="footerChamber">
+<section class="chamb">
+<p class="one-title">Gastronomy Chamber of Commerce Directory</p>
+<p>Olinda 1010</p>
+<p>Olinda@lindacidade.org</p>
+<p>(000) 000-000</p>
+</section>
+</div>
+<div class="media">
+<a href="https://github.com/bmtbmt23" target="_blank">
+<img src="images/github-142-svgrepo-com.svg" alt="GitHub" width="16" height="16">
+</a>
+<a href="https://www.linkedin.com/in/yourusername" target="_blank">
+<img src="images/linkedin-svgrepo-com.svg" alt=" LinkedIn" width="16" height="16">
+</a>
+<a href="https://codepen.io/your-work" target="_blank">
+<img src="images/codepen-01-svgrepo-com.svg" alt="CodePen" width="16" height="16">
+</a>
+<a href="https://www.instagram.com/" target="_blank">
+<img src="images/instagram-svgrepo-com.svg" alt="Instagram" width="16" height="16">
+</a>
+<a href="https://www.facebook.com/" target="_blank">
+<img src="images/facebook-svgrepo-com.svg" alt="Facebook" width="16" height="16">
+</a>
+</div>
+<p id="currentYear"></p>
+<p id="lastModified"></p>
+</footer>
+</body>
+</html>
