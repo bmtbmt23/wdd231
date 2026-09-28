@@ -238,6 +238,14 @@ footer p {
   border-radius: 6px;
   text-decoration: none;
 }
+@keyframes cardAppear { 
+    from { 
+        opacity: 0; transform: translateY(20px); 
+    } 
+    to { 
+        opacity: 1; transform: translateY(0); 
+    } 
+}
 
 /*********LARGE.CSS***********/
 @media (min-width: 700px) {
