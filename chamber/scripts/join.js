@@ -16,9 +16,9 @@ if(timestamp){
 }
 
 const linksView = document.querySelectorAll(".membership-card a");
-linksView.forEach(link => {
+linksView.forEach((link) => {
   link.addEventListener("click", (event) => {
-    event.preventDeFault();
+    event.preventDefault();
 
     const dialogId = link.getAttribute("href");
     const dialog = document.querySelector(dialogId);
@@ -29,8 +29,8 @@ linksView.forEach(link => {
   });
 });
 
-const closeB = document.querySelectorAll(".modal");
-closeB.forEach(button => {
+const closeButtons = document.querySelectorAll(".modal");
+closeButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const dialog = button.closest("dialog");
     if (dialog){
