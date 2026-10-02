@@ -198,9 +198,20 @@ footer p {
   grid-area: name;
 }
 
-#allplaces div img{
+#allplaces div figure img{
   width: 100%;
+  max-width: auto;
   grid-area: photograph;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#allplaces div figure{
+  grid-area: photograph;
+  margin: 0 auto;
+  text-align: center;
+
 }
 
 #allplaces div p{

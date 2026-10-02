@@ -34,7 +34,8 @@ function displayItems(places){
     thephoto.width = 600;
     thephoto.height = 400;
 
-    thecard.appendChild(thephoto);
+    thefigure.appendChild(thephoto);
+    thecard.appendChild(thefigure);
     
 
     const thetitle = document.createElement('h2');
