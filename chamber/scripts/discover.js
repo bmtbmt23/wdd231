@@ -21,10 +21,11 @@ console.logo(places);
 
 function displayItems(places){
   places.forEach((place, index) => {
+
     const thecard = document.createElement('div');
-    
-    const thephoto = document.creatElement('img');
-    thephoto.src = `images/${x.photo_link}`
+    const thephoto = document.createElement('img');
+
+    thephoto.src = `images/${place.photo_link}`;
     thephoto.alt = place.name;
     thephoto.loading = index === 0 ? 'eager' : 'lazy';
     thecard.appendChild(thephoto);
@@ -42,16 +43,16 @@ function displayItems(places){
     thecost.innerText = place.cost;
     thecard.appendChild(thecost);
 
-    const thedescription = document.createElement('description');
+    const thedescription = document.createElement('p');
     thedescription.innerText = place.description;
     thecard.appendChild(thedescription);
 
-    const thebutton = document.crateElemente('button');
-    thebutton.innertext = 'Learn More';
-    thebutton.typeappendChild(thebutton);
+    const thebutton = document.createElement('button');
+    thebutton.innerText = 'Learn More';
+    thebutton.appendChild(thebutton);
 
-    document.querySelector('#allplaces'.appendChild(thecard);
-  })
+    document.querySelector('#allplaces').appendChild(thecard)
+});
 }
 
-displayItem(places)
+displayItem(places);
