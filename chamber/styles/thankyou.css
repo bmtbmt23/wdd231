@@ -21,3 +21,23 @@
   font-weight: bold;
 }
 
+.thankYou h1{
+  animation: thankYouBlink 2s ease-out;
+}
+
+@keyframes thankYouBlink {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 0 transparent;
+  }
+
+  50% {
+    opacity: 0.5;
+    text-shadow: 0 0 15px rgb(149, 144, 168);
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 0 transparent;
+  }
+}
