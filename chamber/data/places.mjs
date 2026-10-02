@@ -69,6 +69,6 @@ export const places = [
     "address": "Av. Ministro Marcos Freire, Olinda - PE, Brazil",
     "cost": "Free",
     "description": "A scenic oceanfront avenue and concrete boardwalk perfect for catching a coastal breeze away from the hills.",
-    "photo_link": "photo10.webp"
+    "photo_link": "photo10.jpg"
   }
 ]
