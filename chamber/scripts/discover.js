@@ -30,6 +30,10 @@ function displayItems(places){
     thephoto.src = `images/${place.photo_link}`;
     thephoto.alt = place.name;
     thephoto.loading = index === 0 ? 'eager' : 'lazy';
+
+    thephoto.width = 600;
+    thephoto.height = 400;
+
     thecard.appendChild(thephoto);
     
 
@@ -50,11 +54,24 @@ function displayItems(places){
     thecard.appendChild(thedescription);
 
     const thebutton = document.createElement('button');
-    thebutton.innerText = 'Learn More';
+    thebutton.innerText = 'learn More';
+    thebutton.classList.add("learn-more");
+    thebutton.type = "button";
     thecard.appendChild(thebutton);
 
-    document.querySelector('#allplaces').appendChild(thecard)
+    document.querySelector('#allplaces').appendChild(thecard);
 });
 }
 
 displayItems(places);
+
+const visitMessage = document.querySelector("#visit-message");
+const lastVisit = localStorage.getItem("lastVisit");
+
+if (!lastVisit) {
+    visitMessage.textContent = "Welcome to Olinda! Enjoy and Discover Olinda Beautiful City.";
+} else {
+    visitMessage.textContent = "Olinda can't wait to see you again!";
+}
+
+localStorage.setItem("lastVisit", Date.now());

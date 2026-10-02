@@ -91,4 +91,11 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+   #allplaces div img {
+        transition: transform 0.3s ease;
+    }
+
+    #allplaces div img:hover {
+        transform: scale(1.05);
+    }
 }
