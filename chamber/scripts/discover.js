@@ -14,8 +14,10 @@ if(timestamp){
   timestamp.value = new Date().toISOString();
 }
 
+/******PLACES.MJS*******/
+
 import {places} from '../data/places.mjs';
-console.logo(places);
+console.log(places);
 
   /****Loop through the array of JSON items****/
 
@@ -49,10 +51,10 @@ function displayItems(places){
 
     const thebutton = document.createElement('button');
     thebutton.innerText = 'Learn More';
-    thebutton.appendChild(thebutton);
+    thecard.appendChild(thebutton);
 
     document.querySelector('#allplaces').appendChild(thecard)
 });
 }
 
-displayItem(places);
+displayItems(places);

@@ -1,3 +1,7 @@
+body {
+  background-color: red !important;
+}
+
 :root {
   --dark-purple: rgb(61, 13, 78);
   --dark-color: rgb(24, 2, 12);
@@ -152,7 +156,7 @@ footer p {
   align-items: center;
   width: 44px;
   height: 44px;
-  border: rgb(99, 75, 102) 3px;
+  border: 3px solid rgb(99, 75, 102);
   border-radius: 22px;
 }
 
@@ -167,6 +171,13 @@ footer p {
 
 /******Cartoon*******/
 
+#allplaces{
+    justify-items: center;
+    display: grid;
+    gap: 20px;
+}
+
+
 #allplaces div {
   margin: 2rem 8px;
   border: 1px solid rgb(61, 13, 78);
@@ -176,14 +187,16 @@ footer p {
   padding: 1rem;
   overflow: hidden;
   display: grid;
-  grid-template-area:
+
+  grid-template-areas:
   "name"
   "photograph"
   "description"
-  "location";
+  "location"
+  "cost";
 }
 
-#alltheplaces div h2{
+#allplaces div h2{
   margin: 1rem 10px;
   grid-area: name;
 }
@@ -203,7 +216,7 @@ footer p {
   grid-area: location;
 }
 
-#allplaces div cost{
+#allplaces div p:nth-of-type(1){
   margin: 1rem 10px;
   grid-area: cost;
 }
