@@ -1,0 +1,33 @@
+@media screen and (min-width: 700px) {
+
+  .hamburger {
+    display: none;
+  }
+
+  #navigation {
+    display: block;
+    grid-column: 2;
+    width: auto;
+  }
+
+  .homePage {
+    flex-direction: row;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  .homePage a {
+    color: var(--white);
+  }
+
+  .homePage a:hover {
+    background-color: var(--bright-blue);
+  }
+
+  .wireframe-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
