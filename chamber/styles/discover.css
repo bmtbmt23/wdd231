@@ -11,8 +11,8 @@
 #allplaces div {
   margin: 2rem 8px;
   border: 1px solid rgb(61, 13, 78);
-  background-color: rgb(149, 144, 168);
-  box-shadow: 0 12px 12px rgb(187, 203, 203);
+  background-color: rgb(225, 223, 232);
+  box-shadow: 0 12px 12px rgb(99, 75, 102);
   border-radius: 8px;
   padding: 1rem;
   overflow: hidden;
@@ -72,7 +72,8 @@
 
 .learn-more{
   background-color: rgb(225, 223, 232);
-  color: rgb(61, 13, 78);
+  border: 2px solid rgb(61, 13, 78);
+  color: rgb(24, 2, 12);
   cursor: pointer;
 }
 
