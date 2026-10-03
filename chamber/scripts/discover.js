@@ -26,6 +26,7 @@ function displayItems(places){
 
     const thecard = document.createElement('div');
     const thephoto = document.createElement('img');
+    const thefigure = document.createElement('figure');
 
     thephoto.src = `images/${place.photo_link}`;
     thephoto.alt = place.name;

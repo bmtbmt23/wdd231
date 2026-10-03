@@ -245,3 +245,13 @@ footer p {
 .learn-more:hover {
     background-color: rgb(187, 203, 203);
 }
+
+@media screen and (min-width: 700px){
+  #allplaces div figure img{
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  #allplaces div figure img:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+  }
+}
