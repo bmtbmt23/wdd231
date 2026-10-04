@@ -1,0 +1,40 @@
+/********PHOTO***********/
+
+.my-photo {
+  position: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 8px;
+  background-color: var(--primary-blue);
+  border: 6px solid var(--primary-red);
+  box-shadow: 8 6px 15px rgba(17, 17, 17, 0.25);
+  border-radius: 10px;
+  
+}
+
+.my-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.my-photo img {
+  transition: transform 0.3s ease;
+}
+
+.my-photo:hover img {
+  transform: scale(1.02);
+}
+
+/********All-ABOUT*******/
+
+.all-about {
+  display: grid;
+  gap: 25px;
+  width: 100%;
+  padding: 20px 10px;
+  background-color: var(--light-bg);
+}
