@@ -7,8 +7,8 @@
   margin: 0 auto;
   padding: 8px;
   background-color: var(--primary-blue);
-  border: 6px solid var(--primary-red);
-  box-shadow: 8 6px 15px rgba(17, 17, 17, 0.25);
+  border: 4px solid var(--primary-red);
+  box-shadow: 0 6px 15px rgba(17, 17, 17, 0.25);
   border-radius: 10px;
   
 }
@@ -37,4 +37,9 @@
   width: 100%;
   padding: 20px 10px;
   background-color: var(--light-bg);
+  border: 6px solid var(--primary-blue);
+  outline: 4px solid var(--primary-red);
+  box-shadow: 8 6px 15px rgba(17, 17, 17, 0.25);
 }
+
+/**********MY STORY**********/
