@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Grilled Chicken Salad",
+    "category": "High Protein",
+    "prepTime": "20 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Chicken breast, lettuce, tomatoes, cucumber, olive oil",
+    "image": "images/grilled-chicken-salad.webp",
+    "alt": "Grilled chicken served over a fresh green salad",
+    "description": "A balanced meal with lean protein and fresh vegetables, perfect for a healthy lunch."
+  },
+  {
+    "id": 2,
+    "name": "Avocado Toast",
+    "category": "Vegetarian",
+    "prepTime": "10 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Whole-grain bread, avocado, lemon, black pepper",
+    "image": "images/avocado-toast.webp",
+    "alt": "Whole-grain toast topped with mashed avocado",
+    "description": "A simple breakfast featuring healthy fats, fiber, and whole grains."
+  },
+  {
+    "id": 3,
+    "name": "Berry Oatmeal",
+    "category": "Breakfast",
+    "prepTime": "15 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Rolled oats, strawberries, blueberries, milk, cinnamon",
+    "image": "images/berry-oatmeal.webp",
+    "alt": "A bowl of oatmeal topped with fresh berries",
+    "description": "Warm oatmeal with fresh berries provides fiber and a naturally sweet start to the day."
+  },
+  {
+    "id": 4,
+    "name": "Quinoa Vegetable Bowl",
+    "category": "Vegetarian",
+    "prepTime": "25 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Quinoa, broccoli, bell peppers, carrots, olive oil",
+    "image": "images/quinoa-vegetable-bowl.webp",
+    "alt": "A colorful bowl of quinoa and fresh vegetables",
+    "description": "A colorful combination of quinoa and vegetables for a satisfying plant-based meal."
+  },
+  {
+    "id": 5,
+    "name": "Baked Salmon",
+    "category": "High Protein",
+    "prepTime": "30 minutes",
+    "difficulty": "Medium",
+    "ingredients": "Salmon, lemon, garlic, olive oil, asparagus",
+    "image": "images/baked-salmon.webp",
+    "alt": "Baked salmon served with asparagus and lemon",
+    "description": "Oven-baked salmon with lemon and asparagus provides protein and beneficial omega-3 fats."
+  },
+  {
+    "id": 6,
+    "name": "Greek Yogurt Parfait",
+    "category": "Breakfast",
+    "prepTime": "5 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Greek yogurt, granola, strawberries, blueberries",
+    "image": "images/greek-yogurt-parfait.webp",
+    "alt": "Greek yogurt layered with granola and fresh berries",
+    "description": "A quick breakfast or snack combining creamy yogurt, fruit, and crunchy granola."
+  },
+  {
+    "id": 7,
+    "name": "Vegetable Stir-Fry",
+    "category": "Vegetarian",
+    "prepTime": "20 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Broccoli, carrots, bell peppers, snap peas, brown rice",
+    "image": "images/vegetable-stir-fry.webp",
+    "alt": "Colorful stir-fried vegetables served with brown rice",
+    "description": "A quick meal filled with colorful vegetables and whole grains."
+  },
+  {
+    "id": 8,
+    "name": "Turkey Lettuce Wraps",
+    "category": "Low Carb",
+    "prepTime": "20 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Ground turkey, lettuce leaves, carrots, garlic, ginger",
+    "image": "images/turkey-lettuce-wraps.webp",
+    "alt": "Ground turkey and vegetables served in crisp lettuce leaves",
+    "description": "Seasoned ground turkey wrapped in lettuce for a fresh and crunchy meal."
+  },
+  {
+    "id": 9,
+    "name": "Spinach Omelet",
+    "category": "Breakfast",
+    "prepTime": "12 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Eggs, spinach, tomatoes, olive oil, black pepper",
+    "image": "images/spinach-omelet.webp",
+    "alt": "A folded omelet filled with spinach and tomatoes",
+    "description": "A simple egg-based breakfast with spinach and tomatoes for added vegetables."
+  },
+  {
+    "id": 10,
+    "name": "Lentil Soup",
+    "category": "Vegetarian",
+    "prepTime": "40 minutes",
+    "difficulty": "Medium",
+    "ingredients": "Lentils, carrots, celery, onion, vegetable broth",
+    "image": "images/lentil-soup.webp",
+    "alt": "A bowl of hearty lentil soup with vegetables",
+    "description": "A comforting soup rich in plant-based protein and fiber."
+  },
+  {
+    "id": 11,
+    "name": "Chicken and Brown Rice Bowl",
+    "category": "High Protein",
+    "prepTime": "30 minutes",
+    "difficulty": "Medium",
+    "ingredients": "Chicken breast, brown rice, broccoli, garlic, olive oil",
+    "image": "images/chicken-rice-bowl.webp",
+    "alt": "Grilled chicken, brown rice, and broccoli in a bowl",
+    "description": "A balanced meal combining lean protein, whole grains, and vegetables."
+  },
+  {
+    "id": 12,
+    "name": "Fruit and Spinach Smoothie",
+    "category": "Vegetarian",
+    "prepTime": "5 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Spinach, banana, mango, milk, plain yogurt",
+    "image": "images/fruit-spinach-smoothie.webp",
+    "alt": "A green smoothie made with spinach and fresh fruit",
+    "description": "A refreshing smoothie that combines leafy greens with naturally sweet fruit."
+  },
+  {
+    "id": 13,
+    "name": "Chickpea Salad",
+    "category": "Vegetarian",
+    "prepTime": "15 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Chickpeas, cucumber, tomatoes, parsley, lemon juice",
+    "image": "images/chickpea-salad.webp",
+    "alt": "A fresh chickpea salad with cucumber, tomatoes, and herbs",
+    "description": "A refreshing plant-based salad with fiber, protein, and fresh ingredients."
+  },
+  {
+    "id": 14,
+    "name": "Baked Sweet Potato",
+    "category": "Vegetarian",
+    "prepTime": "45 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Sweet potato, olive oil, paprika, black pepper, Greek yogurt",
+    "image": "images/baked-sweet-potato.webp",
+    "alt": "A baked sweet potato topped with herbs and yogurt",
+    "description": "A filling side dish with fiber and nutrients, finished with savory seasonings."
+  },
+  {
+    "id": 15,
+    "name": "Tuna and White Bean Salad",
+    "category": "High Protein",
+    "prepTime": "15 minutes",
+    "difficulty": "Easy",
+    "ingredients": "Tuna, white beans, red onion, parsley, lemon juice",
+    "image": "images/tuna-white-bean-salad.webp",
+    "alt": "A tuna and white bean salad garnished with fresh parsley",
+    "description": "A convenient protein-rich salad combining tuna, beans, herbs, and lemon."
+  }
+]

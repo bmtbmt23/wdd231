@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Boxing Stance",
+    "level": "Beginner",
+    "duration": "2 minutes",
+    "equipment": "None",
+    "focus": "Balance",
+    "image": "images/boxing-stance.webp",
+    "alt": "Boxer demonstrating a basic boxing stance",
+    "description": "Stand with your feet comfortably apart, keep your knees slightly bent, and maintain a balanced position."
+  },
+  {
+    "id": 2,
+    "name": "Jab",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "Boxing gloves",
+    "focus": "Speed",
+    "image": "images/jab.webp",
+    "alt": "Boxer demonstrating a jab",
+    "description": "The jab is a quick straight punch thrown with the lead hand."
+  },
+  {
+    "id": 3,
+    "name": "Cross",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "Boxing gloves",
+    "focus": "Power",
+    "image": "images/cross.webp",
+    "alt": "Boxer demonstrating a cross punch",
+    "description": "The cross is a straight punch thrown with the rear hand while rotating the body."
+  },
+  {
+    "id": 4,
+    "name": "Lead Hook",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "Boxing gloves",
+    "focus": "Technique",
+    "image": "images/lead-hook.webp",
+    "alt": "Boxer demonstrating a lead hook",
+    "description": "The lead hook is a short circular punch that uses rotation from the hips and shoulders."
+  },
+  {
+    "id": 5,
+    "name": "Rear Hook",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "Boxing gloves",
+    "focus": "Coordination",
+    "image": "images/rear-hook.webp",
+    "alt": "Boxer demonstrating a rear hook",
+    "description": "The rear hook is a circular punch performed with the rear hand while rotating through the body."
+  },
+  {
+    "id": 6,
+    "name": "Uppercut",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "Boxing gloves",
+    "focus": "Power",
+    "image": "images/uppercut.webp",
+    "alt": "Boxer demonstrating an uppercut",
+    "description": "The uppercut is an upward punch that begins close to the body and travels upward."
+  },
+  {
+    "id": 7,
+    "name": "Forward Footwork",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "None",
+    "focus": "Movement",
+    "image": "images/forward-footwork.webp",
+    "alt": "Boxer practicing forward footwork",
+    "description": "Practice moving forward while maintaining your stance and keeping your balance."
+  },
+  {
+    "id": 8,
+    "name": "Backward Footwork",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "None",
+    "focus": "Movement",
+    "image": "images/backward-footwork.webp",
+    "alt": "Boxer practicing backward footwork",
+    "description": "Practice stepping backward while maintaining your stance and keeping your hands up."
+  },
+  {
+    "id": 9,
+    "name": "Side-to-Side Footwork",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "None",
+    "focus": "Agility",
+    "image": "images/side-footwork.webp",
+    "alt": "Boxer practicing side-to-side footwork",
+    "description": "Move from side to side while maintaining your boxing stance and balance."
+  },
+  {
+    "id": 10,
+    "name": "Shadow Boxing",
+    "level": "Beginner",
+    "duration": "5 minutes",
+    "equipment": "None",
+    "focus": "Coordination",
+    "image": "images/shadow-boxing.webp",
+    "alt": "Boxer practicing shadow boxing",
+    "description": "Practice punches, movement, and defensive techniques without a training partner or bag."
+  },
+  {
+    "id": 11,
+    "name": "Slip",
+    "level": "Beginner",
+    "duration": "2 minutes",
+    "equipment": "None",
+    "focus": "Defense",
+    "image": "images/slip.webp",
+    "alt": "Boxer practicing a defensive slip",
+    "description": "Practice moving your head slightly to the side while maintaining your stance and balance."
+  },
+  {
+    "id": 12,
+    "name": "Jump Rope",
+    "level": "Beginner",
+    "duration": "5 minutes",
+    "equipment": "Jump rope",
+    "focus": "Cardio",
+    "image": "images/jump-rope.webp",
+    "alt": "Boxer exercising with a jump rope",
+    "description": "Use a jump rope to improve coordination, rhythm, footwork, and cardiovascular fitness."
+  },
+  {
+    "id": 13,
+    "name": "Bodyweight Squat",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "None",
+    "focus": "Leg strength",
+    "image": "images/squat.webp",
+    "alt": "Person performing a bodyweight squat",
+    "description": "Perform controlled squats to strengthen the legs and improve lower-body stability for boxing."
+  },
+  {
+    "id": 14,
+    "name": "Mountain Climbers",
+    "level": "Intermediate",
+    "duration": "3 minutes",
+    "equipment": "None",
+    "focus": "Cardio",
+    "image": "images/mountain-climbers.webp",
+    "alt": "Person performing mountain climbers",
+    "description": "Use controlled mountain climbers to challenge your core and cardiovascular endurance."
+  },
+  {
+    "id": 15,
+    "name": "Defensive Guard",
+    "level": "Beginner",
+    "duration": "3 minutes",
+    "equipment": "Boxing gloves",
+    "focus": "Defense",
+    "image": "images/defensive.webp",
+    "alt": "Boxer demonstrating a defensive guard",
+    "description": "Practice keeping your hands in a protective position while maintaining balance and awareness."
+  }
+]
