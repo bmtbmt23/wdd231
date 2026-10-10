@@ -81,7 +81,7 @@ if (lastVisit === null) {
     );
 
     if (daysPassed < 1){
-      visitMessage.textContent = "Welcome back to Olinda!"
+      visitMessage.textContent = "Welcome back to Olinda! Your last visit was less than one day ago."
     }
 
     else{
