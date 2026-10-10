@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This webpage is about boxing exercises, fitness tips, and information about a healthy life.">
+<meta name="author" content="Bruna Beck">
+<title> WDD231 | Healthy Recipes for Boxing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/large.css">
+<link rel="stylesheet" href="styles/boxing.css">
+
+<meta property="og:title" content="Healthy Recipes | Boxing for Fitness and Health">
+<meta property="og:description" content="Health meals, quick recipes and nutrition for your boxing life. ">
+<meta property="og:image" content="https://bmtbmt23.github.io/wdd231/chamber/images/boxing.jpeg">
+<meta property="og:url" content="https://bmtbmt23.github.io/wdd231/final.html/">
+
+<link rel="icon" href="favicon.ico">
+<script src="scripts/data.js" defer></script>
+<script src="scripts/script.js" defer></script>
+<script type="module" src="scripts/recipes.js"></script>
+
+</head>
+<body>
+<header>
+<div class="logo">
+<span class="title">Boxing for Fitness and Health</span>
+<img src="images/boxing-glove-svgrepo-com.svg" alt="Site logo" width="10" height="10">
+</div>
+
+<button id="ham-btn" class="hamburger" aria-label="Navigation menu"></button>
+
+<nav id="navigation">
+<ul class="homePage">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="healthy.html" aria-current="page">Healthy</a></li>
+<li><a href="discover.html">Discover</a></li>
+</ul>
+</nav>
+</header>
+<main>
+    <section class="healthy-tip">
+    <h1>Recipes</h1>
+    <h2>Small Choices Make a Difference</h2>
+    <p>
+      Build healthy habits by choosing balanced meals and
+      nutritious ingredients for your boxing routine.
+    </p>
+  </section>
+
+  <section id="recipe-list" class="recipe-grid" aria-label="Healthy recipes"><p>Loading recipes...</p></section>
+  <dialog id="recipe-dialog" aria-labelledby="dialog-title">
+    
+    <button type="button" id="close-dialog" class="close-dialog" aria-label="Close recipe details"> &times; </button>
+    <img id="dialog-image" src="" alt="" width="600" height="400">
+    
+    <div class="dialog-body"> 
+    <p id="dialog-category"></p>
+    <h2 id="dialog-title"></h2>
+    <p>
+        <strong>Preparation time:</strong>
+        <span id="dialog-time"></span>
+    </p>
+    <p>
+        <strong>Ingredients:</strong>
+        <span id="dialog-ingredients"></span>
+    </p>
+    </div>
+
+  </dialog>
+</main>
+</body>
+<footer>
+  <div class="media">
+<a href="https://github.com/bmtbmt23" target="_blank">
+<img src="images/github-color-svgrepo-com.svg" alt="GitHub" width="16" height="16">
+</a>
+<a href="https://www.linkedin.com/in/yourusername" target="_blank">
+<img src="images/linkedin-svgrepo-com.svg" alt=" LinkedIn" width="16" height="16">
+</a>
+<a href="https://www.instagram.com/" target="_blank">
+<img src="images/instagram-1-svgrepo-com.svg" alt="Instagram" width="16" height="16">
+</a>
+<a href="https://www.facebook.com/" target="_blank">
+<img src="images/facebook-like-style-svgrepo-com.svg" alt="Facebook" width="16" height="16">
+</a>
+</div>
+<p id="currentYear"></p>
+<p id="lastModified"></p>
+<input type="hidden" id="timestamp" name="timestamp">
+</footer>
