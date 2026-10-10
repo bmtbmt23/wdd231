@@ -69,11 +69,25 @@ displayItems(places);
 
 const visitMessage = document.querySelector("#visit-message");
 const lastVisit = localStorage.getItem("lastVisit");
+const currentVisit = Date.now();
 
-if (!lastVisit) {
+if (lastVisit === null) {
     visitMessage.textContent = "Welcome to Olinda! Enjoy and Discover Olinda Beautiful City.";
 } else {
-    visitMessage.textContent = "Olinda can't wait to see you again!";
+
+    const timePassed = currentVisit - Number(lastVisit);
+    const daysPassed = Math.floor(
+      timePassed / (1000 * 60 * 60 * 24)
+    );
+
+    if (daysPassed < 1){
+      visitMessage.textContent = "Welcome back to Olinda!"
+    }
+
+    else{
+      const dayBack = daysPassed === 1 ? "day" : "days";
+      visitMessage.textContent = `Welcome back! Your last visit was ${dayPassed} ${dayBack} ago.`;
+    }
 }
 
-localStorage.setItem("lastVisit", Date.now());
+localStorage.setItem("lastVisit", currentVisit.toString());

@@ -106,7 +106,9 @@
       "name name"
       "photograph photograph"
       "description description"
-      "location cost";
+      "location cost"
+      "learn-more learn-more";
+
   }
 
    #allplaces div figure img {

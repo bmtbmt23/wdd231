@@ -9,7 +9,7 @@
 
 
 #allplaces div {
-  margin: 2rem 8px;
+  margin: 0.5rem 8px 2rem;
   border: 1px solid rgb(61, 13, 78);
   background-color: rgb(225, 223, 232);
   box-shadow: 0 12px 12px rgb(99, 75, 102);
@@ -23,7 +23,11 @@
   "photograph"
   "description"
   "location"
-  "cost";
+  "cost"
+  "learn-more";
+
+  gap: 10px;
+
 }
 
 #allplaces div h2{
@@ -44,6 +48,7 @@
   grid-area: photograph;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
 
 }
 
@@ -57,10 +62,15 @@
   grid-area: location;
 }
 
-#allplaces div p:nth-of-type(1){
+#allplaces div p:first-of-type{
   margin: 1rem 10px;
   grid-area: cost;
 }
+
+#allplaces div .learn-more{
+  grid-are: learn-more;
+}
+
 
 /******VISIT MESSAGE*******/
 
@@ -94,3 +104,6 @@
     height: 100%;
   }
 }
+
+/********correction*********/
+
