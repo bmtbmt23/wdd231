@@ -86,7 +86,7 @@ if (lastVisit === null) {
 
     else{
       const dayBack = daysPassed === 1 ? "day" : "days";
-      visitMessage.textContent = `Welcome back! Your last visit was ${dayPassed} ${dayBack} ago.`;
+      visitMessage.textContent = `Welcome back! Your last visit was ${daysPassed} ${dayBack} ago.`;
     }
 }
 
