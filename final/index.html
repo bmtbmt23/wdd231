@@ -1,113 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="This webpage is about boxing exercises, fitness tips, and information about a healthy life.">
-<meta name="author" content="Bruna Beck">
-<title> WDD231 | Boxing for Fitness and Health</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles/small.css">
-<link rel="stylesheet" href="styles/large.css">
-<link rel="stylesheet" href="styles/boxing.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta property="og:title" content="Explore boxing exercises, fitness tips, and information about healthy eating.">
-<meta property="og:description" content="Explore boxing exercises, fitness tips, and information about healthy eating.">
-<meta property="og:image" content="https://bmtbmt23.github.io/wdd231/final/images/boxing.jpeg">
-<meta property="og:url" content="https://bmtbmt23.github.io/wdd231/index.html/">
+    <meta name="description" content="Discover beginner-friendly boxing exercises, fitness tips, and healthy lifestyle habits with Boxing for Fitness and Health.">
+    <meta name="author" content="Bruna Beck">
 
-<link rel="icon" href="favicon.ico">
-<script src="scripts/data.js" defer></script>
-<script src="scripts/script.js" defer></script>
+    <title>WDD231 | Boxing for Fitness and Health</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/boxing.css">
+
+    <meta property="og:title" content="Boxing for Fitness and Health">
+    <meta property="og:description" content="Explore boxing exercises, fitness tips, and healthy lifestyle habits.">
+    <meta property="og:image" content="https://bmtbmt23.github.io/wdd231/final/images/boxing.jpeg">
+    <meta property="og:url" content="https://bmtbmt23.github.io/wdd231/final/index.html">
+
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/script.js" defer></script>
 </head>
+
 <body>
-<header>
-<div class="logo">
-<span class="title">Boxing for Fitness and Health</span>
-<img src="images/boxing-glove-svgrepo-com.svg" alt="Site logo" width="10" height="10">
+    <header>
+        <div class="logo">
+            <span class="title">Boxing for Fitness and Health</span>
+            <img src="images/boxing-glove-svgrepo-com.svg" alt="Boxing glove logo" width="40" height="40">
+        </div> 
+        <button id="ham-btn" class="hamburger" aria-label="Navigation menu"></button>
+        <nav id="navigation"> <ul class="homePage">
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="healthy.html">Healthy</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="story">WELCOME TO BOXING FOR FITNESS AND HEALTH</p>
+                <br>
+                <h1>Build Strength. Improve Health. Find Your Confidence.</h1>
+                <br>
+                <p class="story-p">
+                    Discover how boxing, exercise boxing can help improve the body, mind, and much more. 
+                </p>
+                <br>
+                <a class="hero-button" href="about.html">My Story</a>
+
+
+                <div class="hero-videos">
+                    <div class="video-container">
+                    <h2>Boxing for Fitness</h2>
+                    <video controls preload="metadata" playsinline>
+                        <source src="videos/boxing-fitness.mp4" type="video/mp4">
+        </video>
+    </div>
 </div>
+<section class="home-content">
+<article class="home-item">
+    <h2>Beginner Exercises</h2>
+    <p> Learn about beginner-friendly boxing movements and exercises to help you get started with your fitness journey. </p>
+    <a href="discover.html">Explore Boxing</a>
+</article>
+<br>
+<article class="home-item">
+    <h2>Healthy Living</h2>
+    <p>Discover healthy eating habits to help fuel your workouts.</p>
+    <a href="healthy.html">Explore Healthy Living</a>
+</article>
 
-<button id="ham-btn" class="hamburger" aria-label="Navigation menu"></button>
-
-<nav id="navigation">
-<ul class="homePage">
-<li><a href="index.html" aria-current="page">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="healthy.html">Healthy</a></li>
-<li><a href="discover.html">Discover</a></li>
-</ul>
-</nav>
-</header>
-<main>
-    <section class="all-about">
-    <div class="my-photo">
-        <img src="images/boxing.jpeg" alt="Wearing boxing cloves during training." width="600" height="600" loading="lazy">
-
-    </div>
-    <div class="my-story">
-        <p class="story">MY STORY</p>
-        <br>
-        <h2>Boxing Is More Than a Sport</h2>
-        <br>
-        <p>
-            I started boxing during one of the most difficult moments
-            of my life. After the sudden death of my late husband,
-            my life changed completely. I felt lost and as if I were
-            walking through a very dark time.
-        </p>
-        <br>
-        <p>
-            During that difficult season, I held onto my faith and
-            continued to pray. Then boxing came into my life.
-        </p>
-        <br>
-        <p>
-            At first, boxing was simply a way for me to exercise.
-            Over time, it became much more. It gave me a place to
-            release my emotions, challenge myself, and take one step
-            forward when life felt difficult.
-        </p>
-        <br>
-        <p>
-            Boxing did not erase my grief, but it helped me find
-            strength while I was going through it. It helped me
-            reconnect with myself and reminded me that even during
-            painful seasons, we can continue moving forward.
-        </p>
-        <br>
-        <p>
-            That is why I created
-            <strong>Boxing for Fitness and Health</strong>.
-            I want to show that boxing can be more than a sport or
-            a workout. It can help us care for our bodies, strengthen
-            our minds, build confidence, and move forward through
-            difficult moments in life.
-        </p>
-    </div>
-    </section>
-
+</section>
 </main>
+    <footer>
+        <div class="media">
+            <a href="https://github.com/bmtbmt23"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="images/github-color-svgrepo-com.svg"
+                     alt="GitHub"
+                     width="24"
+                     height="24">
+            </a>
+
+            <a href="https://www.linkedin.com/in/yourusername"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="images/linkedin-svgrepo-com.svg"
+                     alt="LinkedIn"
+                     width="24"
+                     height="24">
+            </a>
+
+            <a href="https://www.instagram.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="images/instagram-1-svgrepo-com.svg"
+                     alt="Instagram"
+                     width="24"
+                     height="24">
+            </a>
+
+            <a href="https://www.facebook.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="images/facebook-like-style-svgrepo-com.svg"
+                     alt="Facebook"
+                     width="24"
+                     height="24">
+            </a>
+        </div>
+
+        <p id="currentYear"></p>
+        <p id="lastModified"></p>
+        <input type="hidden" id="timestamp" name="timestamp">
+    </footer>
 </body>
-<footer>
-  <div class="media">
-<a href="https://github.com/bmtbmt23" target="_blank">
-<img src="images/github-color-svgrepo-com.svg" alt="GitHub" width="16" height="16">
-</a>
-<a href="https://www.linkedin.com/in/yourusername" target="_blank">
-<img src="images/linkedin-svgrepo-com.svg" alt=" LinkedIn" width="16" height="16">
-</a>
-<a href="https://www.instagram.com/" target="_blank">
-<img src="images/instagram-1-svgrepo-com.svg" alt="Instagram" width="16" height="16">
-</a>
-<a href="https://www.facebook.com/" target="_blank">
-<img src="images/facebook-like-style-svgrepo-com.svg" alt="Facebook" width="16" height="16">
-</a>
-</div>
-<p id="currentYear"></p>
-<p id="lastModified"></p>
-<input type="hidden" id="timestamp" name="timestamp">
-</footer>
+</html>

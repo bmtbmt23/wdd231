@@ -42,4 +42,83 @@
   box-shadow: 8 6px 15px rgba(17, 17, 17, 0.25);
 }
 
-/**********MY STORY**********/
+/********VIDEO*****/
+.hero-videos{
+  position: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 10px;
+}
+.video-container {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--light-bg);
+    border: 4px solid var(--primary-blue);
+    border-radius: 10px;
+    box-shadow: 0 6px 15px var( --bright-blue);
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: var(--primary-blue);
+    border: 3px solid var(--primary-red);
+    border-radius: 6px;
+}
+
+/***********HOME**********/
+.home-content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px 10px;
+    background-color: var(--light-bg);
+    border: 4px solid var(--primary-red);
+    outline: 4px solid var(--primary-blue);
+    box-shadow: 0 6px 15px var( --bright-blue);
+    border-radius: 10px;
+}
+
+.home-item a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: var(--primary-blue);
+    color: var(--light-bg);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.home-item a:hover {
+    background-color: var(--primary-red);
+}
+
+.home-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px var( --bright-blue);
+}
+
+/**********MY STORY ***********/
+.hero-button{
+   display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    box-shadow: 0 6px 15px var( --bright-blue);
+    background-color: var(--primary-blue);
+    color: var(--light-bg);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.story, .story-p{
+  text-align: center;
+}

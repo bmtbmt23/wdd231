@@ -1,6 +1,5 @@
-const recipeList = document.querySelector("#recipe-list");
+const recipeContainer = document.querySelector("#recipe-list");
 const recipeDialog = document.querySelector("#recipe-dialog");
-
 
 let recipes = [];
 let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
@@ -12,13 +11,16 @@ async function getRecipes() {
     if (!response.ok) {
       throw new Error("Recipes could not load");
     }
+
     recipes = await response.json();
+
     displayRecipes(recipes);
-     } catch (error) {
+
+  } catch (error) {
     console.error(error);
     recipeContainer.textContent = "Sorry, recipes could not load.";
   }
-} 
+}
 
 function displayRecipes(recipes) {
   recipeContainer.innerHTML = "";
@@ -29,47 +31,48 @@ function displayRecipes(recipes) {
     const title = document.createElement("h2");
     const category = document.createElement("p");
     const time = document.createElement("p");
+    const difficulty = document.createElement("p");
+    const description = document.createElement("p");
     const button = document.createElement("button");
-    const favorite = document.createElement("button");
+    const favoriteButton = document.createElement("button");
 
     image.src = recipe.image;
-    image.alt = recipe.name;
+    image.alt = recipe.alt || recipe.name;
     image.loading = "lazy";
+    image.width = 600;
+    image.height = 400;
 
     title.textContent = recipe.name;
-    category.textContent = recipe.category;
-    time.textContent = `Preparartion: $Recipe.prepTime`;
+    category.textContent = `Category: ${recipe.category}`;
+    time.textContent = `Preparation: ${recipe.prepTime}`;
+    difficulty.textContent = `Difficulty: ${recipe.difficulty}`;
+    description.textContent = recipe.description;
 
     button.textContent = "View Recipe";
     button.type = "button";
 
-    favorite.textContent = favorite.includes(recipe.id)
-    ? "♥ Saved"
-    : "🌟 Favorite";
+    const isFavorite = favorites.includes(recipe.id);
 
-    card.classList.add("recipe-card");
+    favoriteButton.type = "button";
+    favoriteButton.textContent = isFavorite
+      ? "♥ Saved"
+      : "☆ Add to Favorites";
 
-    card.appendChild(image);
-    card.appendChild(title);
-    card.appendChild(category);
-    card.appendChild(time);
-    card.appendChild(button);
-    card.appendChild(favorite);
-
-    recipeContainer.appendChild(card);
+    favoriteButton.setAttribute("aria-pressed", String(isFavorite));
     
     button.addEventListener("click", () => {
-        document.querySelector("#dialog-image").src = recipe.image;
-        document.querySelector("#dialog-image").alt = recipe.name;
-        document.querySelector("#dialog-title").textContent = recipe.name;
-        document.querySelector("#dialog-category").textContent = recipe.category;
-        document.querySelector("#dialog-time").textContent = recipe.prepTime;
-        document.querySelector("#dialog-ingredients").textContent = recipe.ingredients;
-        
-        dialog.showModal();
-    });
+      document.querySelector("#dialog-image").src = recipe.image;
+      document.querySelector("#dialog-image").alt = recipe.alt || recipe.name;
 
-    favorite.addEventListener("click", () => {
+      document.querySelector("#dialog-title").textContent = recipe.name;
+      document.querySelector("#dialog-category").textContent = recipe.category;
+      document.querySelector("#dialog-time").textContent = recipe.prepTime;
+      document.querySelector("#dialog-ingredients").textContent = recipe.ingredients;
+
+      recipeDialog.showModal();
+    });
+    
+      favoriteButton.addEventListener("click", () => {
       if (favorites.includes(recipe.id)) {
         favorites = favorites.filter((id) => id !== recipe.id);
       } else {
@@ -77,15 +80,26 @@ function displayRecipes(recipes) {
       }
 
       localStorage.setItem("favorites", JSON.stringify(favorites));
+
       displayRecipes(recipes);
     });
-  });
-}
 
-document.querySelector('#close-dialog').addEventListener("click",
-    () => {
-        dialog.close();
-    
+    card.classList.add("recipe-card");
+
+    card.appendChild(image);
+    card.appendChild(title);
+    card.appendChild(category);
+    card.appendChild(time);
+    card.appendChild(difficulty);
+    card.appendChild(description);
+    card.appendChild(button);
+    card.appendChild(favoriteButton);
+
+    recipeContainer.appendChild(card);
+});
+}
+document.querySelector("#close-dialog").addEventListener("click", () => {
+  recipeDialog.close();
 });
 
 getRecipes();
