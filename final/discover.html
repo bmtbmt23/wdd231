@@ -13,14 +13,17 @@
 <link rel="stylesheet" href="styles/large.css">
 <link rel="stylesheet" href="styles/boxing.css">
 
+
 <meta property="og:title" content="Explore boxing exercises, fitness tips, and information about healthy eating.">
 <meta property="og:description" content="Explore boxing exercises, fitness tips, and information about healthy eating.">
-<meta property="og:image" content="https://bmtbmt23.github.io/wdd231/final/images/boxing.jpeg">
-<meta property="og:url" content="https://bmtbmt23.github.io/wdd231/index.html/">
+<meta property="og:image" content="https://bmtbmt23.github.io/wdd231/chamber/images/restaurant-1.jpeg">
+<meta property="og:url" content="https://github.com/bmtbmt23/wdd231/tree/main/chamber">
 
 <link rel="icon" href="favicon.ico">
 <script src="scripts/data.js" defer></script>
-<script src="scripts/script.js" defer></script>
+<script src="scripts/script.js" defer></script> 
+<script type="module" src="scripts/main.js"></script> 
+<script src="script.js" defer></script> 
 
 
 </head>
@@ -35,17 +38,45 @@
 
 <nav id="navigation">
 <ul class="homePage">
-<li><a href="index.html">Home</a></li>
+<li><a href="index.html" aria-current="page">Home</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="healthy.html">Healthy</a></li>
-<li><a href="discover.html"aria-current="page">Discover</a></li>
+<li><a href="discover.html">Discover</a></li>
 </ul>
 </nav>
 </header>
 <main>
+  <h1>Discover Boxing Exercises</h1>
+  <br>
+  <article class="question">
+    <h2><strong>What boxing exercises can I do at home if I am a beginner?</strong></h2>
+    <br>
+    <p>Beginners can practice boxing at home with simple exercises such as
+      boxing stance, jabs, crosses, shadow boxing, footwork, jump rope and defensive
+      movements.</p>
+    <br>
+    <h2><strong>How can boxing help improve my fitness and endurance?</strong></h2>
+    <br>
+    <p>Boxing can improve cardiovascular fitness, endurance, coordination,
+      balance, and muscular strength.</p>
+  </article>
+  
+  <section class="exercises-section">
+   <div id="exercise-list" class="exercise-grid"></div>
+    <dialog id="exercise-dialog">
+      <button type="button" id="close-dialog">Close</button>
+      <img id="dialog-image" src="" alt="" width="600" height="400">
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-level"></p>
+      <p id="dialog-duration"></p>
+      <p id="dialog-equipment"></p>
+      <p id="dialog-focus"></p>
+      <p id="dialog-description"></p>
+    </dialog>
 
+    <script type="module" src="script/script.js"></script>
+  </section>   
 </main>
-</body>
 <footer>
   <div class="media">
 <a href="https://github.com/bmtbmt23" target="_blank">
@@ -65,3 +96,5 @@
 <p id="lastModified"></p>
 <input type="hidden" id="timestamp" name="timestamp">
 </footer>
+</body> 
+</html>

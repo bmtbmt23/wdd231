@@ -189,3 +189,24 @@ footer p {
 .media a:hover {
   background-color: var(--light-bg);
 }
+
+@media screen and (max-width: 600px) {
+  .exercise-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .boxing-questions {
+    grid-template-columns: 1fr;
+  }
+
+  .exercise-card img {
+    height: 220px;
+  }
+
+}
+.exercise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+}
