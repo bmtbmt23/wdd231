@@ -203,9 +203,20 @@ footer p {
     height: 220px;
   }
 
-}
-.exercise-grid {
+   .form-container {
+    padding: 20px 15px;
+    margin: 10px auto;
+  }
+
+  .form-container h2 {
+    font-size: 1.3rem;
+  }
+  
+  .exercise-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+
 }

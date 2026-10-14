@@ -44,17 +44,6 @@
     "description": "The lead hook is a short circular punch that uses rotation from the hips and shoulders."
   },
   {
-    "id": 5,
-    "name": "Rear Hook",
-    "level": "Beginner",
-    "duration": "3 minutes",
-    "equipment": "Boxing gloves",
-    "focus": "Coordination",
-    "image": "images/rear-hook.webp",
-    "alt": "Boxer demonstrating a rear hook",
-    "description": "The rear hook is a circular punch performed with the rear hand while rotating through the body."
-  },
-  {
     "id": 6,
     "name": "Uppercut",
     "level": "Beginner",
@@ -64,17 +53,6 @@
     "image": "images/uppercut.webp",
     "alt": "Boxer demonstrating an uppercut",
     "description": "The uppercut is an upward punch that begins close to the body and travels upward."
-  },
-  {
-    "id": 7,
-    "name": "Forward Footwork",
-    "level": "Beginner",
-    "duration": "3 minutes",
-    "equipment": "None",
-    "focus": "Movement",
-    "image": "images/forward-footwork.webp",
-    "alt": "Boxer practicing forward footwork",
-    "description": "Practice moving forward while maintaining your stance and keeping your balance."
   },
   {
     "id": 8,
@@ -152,16 +130,5 @@
     "image": "images/mountain-climbers.webp",
     "alt": "Person performing mountain climbers",
     "description": "Use controlled mountain climbers to challenge your core and cardiovascular endurance."
-  },
-  {
-    "id": 15,
-    "name": "Defensive Guard",
-    "level": "Beginner",
-    "duration": "3 minutes",
-    "equipment": "Boxing gloves",
-    "focus": "Defense",
-    "image": "images/defensive.webp",
-    "alt": "Boxer demonstrating a defensive guard",
-    "description": "Practice keeping your hands in a protective position while maintaining balance and awareness."
   }
 ]
