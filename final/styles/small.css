@@ -39,7 +39,7 @@ main {
 }
 
 h1 {
-  color: var(--primary-red);
+  color: var(--dark-red);
   padding: 10px;
   text-align: center;
 }
