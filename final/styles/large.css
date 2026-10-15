@@ -54,6 +54,15 @@
     grid-column: 2/3;
     width: auto;
   }
+
+  .home-item a{
+    text-align: center;
+  }
+
+ .home-item{
+  background-color: var(--white);
+  border: 2px solid var(--primary-blue);
+ }
 }
 
 
