@@ -1,7 +1,6 @@
 /********PHOTO***********/
 
 .my-photo {
-  position: center;
   width: 100%;
   max-width: 450px;
   margin: 0 auto;
@@ -206,11 +205,6 @@
   text-align: center;
   color: var(--primary-blue);
   margin-bottom: 20px;
-}
-
-#fitness-registration-form label {
-  font-weight: bold;
-  color: var(--primary-blue);
 }
 
 /**********THANKYOU**********/
