@@ -211,13 +211,12 @@ footer p {
 /*********MEDIA************/
 
 @media screen and (max-width: 600px) {
-  .exercise-grid {
+  .exercise-grid, 
+  .boxing-questions,
+  .hero-videos {
     grid-template-columns: 1fr;
   }
 
-  .boxing-questions {
-    grid-template-columns: 1fr;
-  }
 
   .exercise-card img {
     height: 220px;

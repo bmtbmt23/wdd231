@@ -34,18 +34,25 @@
         align-items: center;
         gap: 15px;
     }
-
-
-  .recipe-grid{
+    
+    .recipe-grid{
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     width: 100%;
   }
-
   .exercise-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     width: 100%;
+  }
+  .hamburger{
+    display: none;
+  }
+
+  #navigation {
+    display: block;
+    grid-column: 2/3;
+    width: auto;
   }
 }
 

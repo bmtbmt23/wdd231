@@ -12,12 +12,12 @@
 
 .recipe-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(17, 17, 17, 0.25);
+  box-shadow: 0 10px 20px var(--kind-black);
 }
 .recipe-card img {
   display: block;
   width: 100%;
-  height: 500px;
+  height: 250px;
   object-fit: cover;
   border: 3px solid var(--primary-red);
   border-radius: 7px;
