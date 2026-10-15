@@ -108,8 +108,13 @@ function displayExercise(exercises) {
   });
 }
 
-document.querySelector("#close-dialog").addEventListener("click", () => {
-  exerciseDialog.close();
-});
+const closeDialogButton = document.querySelector("#close-dialog");
+
+if (closeDialogButton && exerciseDialog) {
+  closeDialogButton.addEventListener("click", () => {
+    exerciseDialog.close();
+    });
+}
+
 
 getExercise();
