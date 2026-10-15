@@ -219,18 +219,20 @@
 }
 
 @media screen and (max-width: 600px) {
-  .exercise-grid {
+  .exercise-grid, .hero-videos {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
   }
 
-  .exercise-card {
+  .exercise-card, .hero-videos,
+  .hero-videos iframe {
     width: 100%;
     max-width: 100%;
   }
 
-  .exercise-card img {
+  .exercise-card img, 
+  .hero-videos video {
     display: block;
     width: 100%;
     height: auto;
