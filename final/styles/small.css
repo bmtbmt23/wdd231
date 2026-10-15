@@ -237,5 +237,13 @@ footer p {
   gap: 20px;
 }
 
+.recipe-card img {
+  height: auto;
+  aspect-ratio: 3 / 2;
+}
+
+#fitness-registration-form {
+  grid-template-columns: 1fr;
+}
 
 }
