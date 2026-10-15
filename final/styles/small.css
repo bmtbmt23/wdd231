@@ -233,7 +233,9 @@ footer p {
   }
 
   .exercise-grid,
-  .recipe-grid {
+  .recipe-grid,
+  .discover-grid,
+  #discover-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -247,6 +249,14 @@ footer p {
 
 #fitness-registration-form {
   grid-template-columns: 1fr;
+}
+
+.discover-grid img,
+#discover-list img{
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 }

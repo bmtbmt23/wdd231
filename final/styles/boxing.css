@@ -217,3 +217,23 @@
   text-align: center;
   margin: 30px auto;
 }
+
+@media screen and (max-width: 600px) {
+  .exercise-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .exercise-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .exercise-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}

@@ -45,3 +45,22 @@
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  #recipe-list.recipe-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  #recipe-list .recipe-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #recipe-list .recipe-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
