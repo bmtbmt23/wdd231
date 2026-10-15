@@ -39,12 +39,11 @@
   background-color: var(--light-bg);
   border: 6px solid var(--primary-blue);
   outline: 4px solid var(--primary-red);
-  box-shadow: 8 6px 15px rgba(17, 17, 17, 0.25);
+  box-shadow: 8 6px 15px var(--bright-blue);
 }
 
 /********VIDEO*****/
 .hero-videos{
-  position: center;
   width: 100%;
   max-width: 1000px;
   margin: 20px auto;
